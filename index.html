@@ -13,10 +13,6 @@
     <title>Lucas Padua</title>
   </head>
 
-
-
-
-
   <body>
     <!-- nav bar -->
     <nav class="navbar navbar-expand-lg fixed-top nav-menu">
@@ -30,16 +26,20 @@
       <div class="collapse navbar-collapse justify-content-end text-uppercase font-weight-bold" id="myNavbar">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a href="#" class="nav-link m-2 menu-item nav-active">Home</a>
+            <a href="#home" class="nav-link m-2 menu-item nav-active">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link m-2 menu-item">About Me</a>
+            <a href="#aboutme" class="nav-link m-2 menu-item">About Me</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link m-2 menu-item">Projects</a>
+            <a href="#project" class="nav-link m-2 menu-item">Projects</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link m-2 menu-item">Contact</a>
+            <a href="images/Lucas Padua - CV.pdf" target="_blank" class="nav-link m-2 menu-item">Download My CV</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link m-2 menu-item">Contact</a>
+
           </li>
         </ul>
       </div>
@@ -48,7 +48,7 @@
 
     <!-- end nav bar -->
     <!-- header -->
-  <header class="d-flex align-items-center">
+  <header class="d-flex align-items-center" id="home">
 
     <!-- social media -->
     <div class="align-self-start position-absolute">
@@ -67,10 +67,7 @@
       <div class="row">
 
         <div class="col text-center">
-          <h4 class="text-light display-5 font-italic mb-5 banner-heading"><img src="img/hello-world.png" width="350" class="img-fluid"><br/>by Lucas Padua<br/><br/></h4><br/>
-
-
-
+          <h2 class="text-light display-5 font-italic mb-5 banner-heading"><img src="img/hello-world.png" width="350" class="img-fluid"><br/>by Lucas Padua<br/><br/></h2><br/>
         </div>
       </div>
     </div>
@@ -79,7 +76,8 @@
 
   <!-- lightbox  -->
 
-  <section class="gallery">
+<div id="project"><br/><br/><br/></div>
+  <section class="gallery" >
     <div class="container">
       <!-- title -->
       <div class="row">
@@ -133,10 +131,10 @@ Technologies used: JavaScript, Html, Css, jQuery">
   <!--  end of lightbox-->
 
   <!-- About me -->
-<section class="p-5 mission">
+<section class="p-5 about_me" id="aboutme" >
   <div class="container-fluid">
     <!-- title -->
-    <div class="row text-white text-center">
+    <div class="row text-white text-center" >
       <div class="col m-4">
         <h1 class="display-4 mb-4">About me</h1>
         <div class="underline mb-4"></div>
@@ -185,6 +183,25 @@ help businesses achieve their goals.</p>
   </div>
 </section>
 <!-- end of about me -->
+<!-- footer -->
+     <footer class="bg-secondary" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h3 class="text-light font-weight-light font-italic mb-3">Contact Me</h3>
+                    <div class="py-2">
+                        <a href="mailto:lucas.p2222@gmail.com" ><i class="fas fa-envelope fa-2x text-dark mx-3"></i></a>
+                        <a href="https://www.linkedin.com/in/lucaspadua" target="_blank"><i class="fab fa-linkedin fa-2x text-primary mx-3"></i></a>
+                        <a href="https://github.com/Lucasp22" target="_blank" ><i class="fab fa-github-square fa-2x text-dark mx-3"></i></a>
+                        <a href="images/Lucas Padua - CV.pdf" target="_blank" ><i class="fas fa-download fa-2x text-light mx-3"></i></a>
+                        <a href="https://twitter.com/LucasPadua14" target="_blank"><i class="fab fa-twitter fa-2x text-info mx-3"></i></a>
+                    </div>
+                    <p class="text-light py-4 m-0">&copy;Copyright 2018 - Lucas Padua</p>
+                </div>
+            </div>
+        </div>
+     </footer>
+     <!-- end of footer -->
 
 
 

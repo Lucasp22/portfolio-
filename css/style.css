@@ -164,8 +164,8 @@ header {
   background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .7));
 }
 /* end of navbar */
-/* mission */
-.mission {
+/* about me */
+.about_me {
   background: #151f20;
 }
 
@@ -206,4 +206,4 @@ header {
     opacity: 1;
   }
 }
-/* end of mission */
+/* end of aboutme*/
